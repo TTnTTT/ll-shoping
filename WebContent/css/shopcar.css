@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+.tab{
+	 border:1;
+	
+	 width:900px;
+}
+.tab td{
+	/* width: 50px;
+	height: 50px; */
+	text-align:center;
+}
+.show td{
+	
+	height: 100px;
+}
+.show td>input{
+	text-align:center;
+	background:#fff;
+	border:none;
+	size:10;disabled:ture;
+	font-size: 20px;
+}
+/*商品数量*/
+.shuliang{
+	text-align:center;
+}
+.add{
+	float:left;
+	display:block;
+	background: #d3d3d3;
+	width: 20px;
+	height: 20px;
+	margin-left:2px;
+}
+.num{
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+}
+.cdd{
+	float:left;
+	display:block;
+	background: #d3d3d3;
+	width: 20px;
+	height: 20px;
+}
+.add:hover{
+	background: #f0f;
+}
+.cdd:hover{
+	background: #f0f;
+}
+/*输入框改加disabled后变灰*/
+.dis_input{
+	color:#f00;
+	font-size:20px;
+	height:20px;
+	border:0;
+	background:transparent;
+	
+}

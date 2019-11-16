@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+*{/*让边距为0*/
+	margin: 0;
+	padding: 0;
+}
+.clears{
+	clear: both;/*清除浮动*/
+	height: 0px;/*标签高度为0*/
+	font-size: 0px;/*字体大小为0*/
+	line-height: 0px;/*文本高度为0*/
+	overflow: hidden;/*超出隐藏*/
+}
+ul,ol,li{/*去掉列表前的列表符号*/
+	list-style: none;
+}
+a{/*去掉超链接文本下划线*/
+	text-decoration: none;
+}
+img{
+	border:none;/*ie8,9等会出现不兼容图片出现蓝色边框，需要写这个去掉*/
+}
+body{
+	font-family: Arial,Verdana,"MIcrosoft Yahei",Simsum;
+}
+.btn{
+
+padding: 3px 6px;
+font-size: 16px;
+border-radius:10px;
+border: 1px solid rgba(236,97,73,.7);
+}
+.btn:hover{
+	background: #f00;
+	color:#fff;
+}

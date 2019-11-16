@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+#add_list>li{
+	height: 40px;
+	line-height: 40px;
+}
+#add_list>li input{
+	height: 25px;
+}

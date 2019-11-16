@@ -1,0 +1,291 @@
+/* CSS Document */
+/*选中分类时样式*/
+.xz{
+	background:#f00;
+}
+.wxz{
+	background: #D3D3D3;
+}
+
+.beijing{
+	width: 100%;
+	height: 100%;
+	/*background: url(../images/beijing.jpg);  */
+	
+}
+.daoyu{
+	color: #F3F0F0;
+	width: 300px;
+	height: 10px;
+	position: relative;
+	top: 30px;
+	left: 50px;
+	font-size: 22px;
+}
+.top{
+	width: 100%;
+	height: 80px;
+	background:#e63928;
+	position: absolute;
+}
+.top>ul{
+	width: 1200px;
+	height: 80px;
+	float: right;
+}
+.top>ul>li{
+	width: 240px;
+	height: 80px;
+	float: left;
+	padding-top: 38px;
+	color:#FCF4F7;
+	font-size: 22px;
+}
+.logo{
+	padding-left: 50px;
+	width: 1299px;
+	position: absolute;
+	margin-top: 80px;
+}
+.logo img{
+	float:left;
+	margin-right:40px;
+}
+.logo ul{
+	width:1050px;
+	float:left;
+	line-height:100px;
+	margin-top:10px;
+	
+}
+.logo li{
+	
+	margin-left:10px;
+	width:40px;
+	height:100px;
+	float:left;
+	border-radius:10px;
+	font-size:20px;
+	text-align:center;
+	
+	 
+}
+.logo .first{
+	margin-left:100px;
+}
+.logo li>input{
+	display:block;
+	text-align:center;
+	font-size:16px;
+	border-radius:10px;
+}
+.logo li>input:hover{
+	background: #f0f;
+}
+.fudong{
+	width: 100px;
+	padding-left: 285px;
+	font-size: 18px;
+	color: #CB1F22;
+	position: relative;
+	top:175px;
+	left: -200px;
+}
+
+
+.login{
+	margin-top:2px;
+	width: 300px;
+	height: 150px;
+	position: relative;
+	left: 1100px;
+	bottom: 0px;
+}
+.login>ul{
+	width: 200px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+.login>li{
+	width: 200px;
+	height: 50px;
+	padding-left: 15px;
+}
+.login>ul>a{
+	width: 50px;
+	height: 50px;
+	padding-left: 40px;
+	font-size: 20px;
+}
+.login>ul>a:hover{
+	color: #FF0509;
+	font-size: 18px;
+}
+.fenlei{
+	background: #FBF8F8;
+	width: 220px;
+	height: 800px;
+	position: relative;
+	left: 30px;
+	bottom: 1220px;
+}
+.fenlei>li{
+	width: 200px;
+	height: 45px;
+	padding-left: 20px;
+}
+.fenlei>li:hover{
+	background:#D4D4D4;
+}
+.xiazhui{
+	width: 800px;
+	position: relative;
+	left: 570px;
+	top: 120px;
+}
+
+
+.shangpin{
+	width: 1349px;
+	height: 100%;
+	/* background:#D3D3D3; */
+	margin-top: 280px;
+	position: absolute;
+	opacity: 0.9;
+	
+}
+.shangpin>ul{
+	width: 1200px;
+	height: 1400px;
+	margin-left: 180px;
+	padding-top: 5px;
+	padding-left: 30px;
+}
+.shangpin>ul>li{
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 380px;
+	height: 360px;
+	float: left;
+}
+/*输入框改加disabled后变灰*/
+.shangpin .dis_input{
+	disabled:true;
+	color:#f00;
+	float:left;
+	height:20px;
+	border:0;
+	background:transparent;
+	
+}
+.shangpin1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 300px;
+	background:#FFFFFF
+}
+.shangpin1>a{
+	display:block;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	
+}
+.shangpin1>a>img:hover{
+	transform:scale(1.2);
+	transition:0.5s;
+}
+.mingcheng{
+	background: #FFFFFF;
+	width: 180px;
+	height: 30px;
+	margin-left: 60px;
+	text-align: center;
+}
+.jiaqian{
+	background: #FFFFFF;
+	width: 110px;
+	height: 25px;
+	text-align: center;
+	margin-left: 50px;
+}
+.shuliang{
+	background: #FFFFFF;
+	width: 100px;
+	height: 25px;
+	float: right;
+	text-align: center;
+	position: relative;
+	bottom: 25px;
+	right: 120px
+}
+#car{
+	width:100px;
+	height:60px;
+	position: relative;
+	bottom: 55px;
+	right: -245px
+}
+.baozheng{
+	
+	width: 1920px;
+	height: 270px;
+	position: relative;
+	top:140px;
+	right: 350px;
+}
+
+.xiazhui ul{
+	width:300px;
+	magin-left:auto;
+	magin-right:auto;
+}
+.xiazhui li{
+	float:left;
+	font-size:20px;
+	width:50px;
+	height:50px;
+	color:#888888;
+}
+.xiazhui a:hover{
+	color: #FF0004;	
+}
+
+/*左边导航栏*/
+
+.navlist{
+	margin-left:20px;
+	width: 100px;
+	height: 1000px;
+	position: relative;
+	top: -1400px;
+	left: 0px
+}
+.navlist li{
+	width: 150px;
+	height: 50px;
+	background: #D3D3D3;
+	margin:10px;
+	border-radius:10px;
+}
+.navlist li>a{
+	display:block;
+	text-align:center;
+	line-height:50px;
+	font-size: 20px;
+	border-radius:10px;
+}
+.navlist li>a:hover{
+	background: #f0f;
+}
+#fenge{
+	background: #0f0;
+	color: #000;
+	width: 150px;
+	height: 20px;
+	text-align:center;
+}

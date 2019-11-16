@@ -1,0 +1,223 @@
+@CHARSET "UTF-8";
+/* CSS Document */
+
+.nav{
+	height: 80px;
+	width: 1920px;
+	min-width: 1000px;
+}
+.nav .nav_content{
+	height: 80px;
+	width: 1000px;
+	margin-left: 550px;
+}
+.logo{
+	float: left;
+	height: 80px;
+	width: 175px;
+	overflow: hidden;
+}
+.nav1{
+	height: 80px;
+}
+.nav1 .welcome{
+	color: #000000;
+	font-size: 22px;
+	display: inline-block;
+	margin-top: 40px;
+	width: 100px;
+	height: 20px;
+	
+}
+.nav1 .welcome1{
+	color: #636060;
+	font-size: 13px;
+	padding-left: 380px;
+	margin-top: 0PX;
+	width: 120PX;
+	height: 10PX;
+	display:inline-block;
+}
+.class2{
+	height: 60px;
+	width: 1920px;
+	background: #fff8f0;
+}
+.class2 .woning{
+	height: 20px;
+	width: 1050px;
+	display: inline-block;
+	font-size: 16px;
+	color: #000000;
+	margin-top: 25px;
+	margin-left: 650px;
+}
+.bonden{
+	height: 450px;
+	width: 1920px;
+	background: #cc0001;
+	position: relative;
+}
+.xiugai{
+	height: 350px;
+	width: 470px;
+	position: absolute;
+	left: 650px;
+	top: 102px;
+}
+.last{
+	width: 1920px;
+	height: 100px;
+}
+.last_content{
+	width: 900px;
+	height: 20px;
+	color: #000000;
+	font-size: 15px;
+	margin-left: 500px;
+	display: inline-block;
+	margin-top: 20px;
+}
+.mowei{
+	height: 50px;
+	width: 500px;
+	font-size: 10px;
+	display: inline-block;
+	margin-left: 800px;
+	margin-bottom: 50px;
+	position: relative;
+}
+.tuwen{
+	width:  320px;
+	height: 400px;
+	background: #FFFFFF;
+	position: absolute;
+	top:20px;
+	left: 1200px;	
+}
+.top{
+	width: 320px;
+	height: 30px;
+	background: #fff8f0;
+	
+}
+.top_content{
+	color: #B1B1B1;
+	font-size: 12px;
+	line-height: 30px;
+}
+.tuwen2{
+	width: 320px;
+	height: 50px;
+	border-bottom:1px solid #A4A2A2;
+}
+.kaitou{
+    color: #888484;
+	font-size: 20px;
+	padding-left: 30px;
+	line-height: 50px;
+}
+.denglu{
+	width: 320px;
+	height: 300px;
+	position: relative;
+}
+.login-input-box{
+    margin-top: 25px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.login-input-box input{
+    width: 250px;
+    height: 32px;
+    margin-left: 18px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding-left: 40px;
+}
+
+.login-input-box input:hover{
+    border: 1px solid #ff7d0a;
+}
+
+.login-input-box input:after{
+    border: 1px solid #ff7d0a;
+}
+
+.login-input-box .icon{
+    width: 24px;
+    height: 24px;
+    margin: 6px 4px 6px 24px;
+    background-color: #ff7d0a;
+    display: inline-block;
+    position: absolute;
+    border-right: 1px solid #dcdcdc;
+}
+.login-button-box{
+	bottom: 70px;
+	left: 15px;
+	position: absolute;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align:center;
+}
+
+
+.login-button-box button:hover{
+    background-color: #ee7204;
+}
+.login-input-box1 .icon{
+    width: 24px;
+    height: 24px;
+    margin: 6px 4px 6px 24px;
+    background-color: #ff7d0a;
+    display: inline-block;
+    position: absolute;
+    border-right: 1px solid #dcdcdc;
+}
+.login-button-box1{
+	bottom: 30px;
+	left: 15px;
+	position: absolute;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.login-button-box1 button{
+    background-color: #ff7d0a;
+    color: #ffffff;
+    font-size: 14px;
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+    border: 1px solid #ff7d0a;
+    border-radius: 50px;
+}
+
+.login-button-box1 button:hover{
+    background-color: #ee7204;
+}
+
+.login-input-yzm{
+    margin-top: 25px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  	font-size:15px;
+}
+.login-input-yzm input{
+    width: 40px;
+    height: 22px;
+    margin-left: 18px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding-left: 40px;
+}
